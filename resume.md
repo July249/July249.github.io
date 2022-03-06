@@ -23,14 +23,14 @@ __Machine Learning Learner__ From the role of Engineeo, I'm into the Data Scienc
 
 __Growth Hacker & Marketing Strategy Team Leader, Engineeo__ Created and collected data and managed the Google Ads, item service. As a Team Leader, I encouraged the team members and leading the mid-long term strategy.
 
-`2020-Fall semester`
+`2020`
 
 __Research Assistant, Catholic University of Korea__ Used group theory to find the ground state of energy for Frustrated Spin System.
 
 
 ## Education
 
-`2020-Fall semester`
+`2020`
 
 __Internship & Master Course (Physics), Catholic University of Korea__
 
