@@ -1,12 +1,12 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title:       Junior Theme
-email:       jonathon.bel.melbourne@gmail.com
-author:      Jonathon Belotti
+title:       July249.github.io
+email:       jhlee7125@gmail.com
+author:      Jihyung Lee
 description: "A striking black-white Jekyll theme."
 baseurl:     ""
-url:         "https://juniortheme.live/"
+url:         "https://july249.github.io/"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -22,7 +22,7 @@ bing_verification:
 ## Optional features                ##
 ######################################
 animated:             false
-show_related_posts:   false
+show_related_posts:   True
 show_post_footers:    True
 show_social_icons:    True
 ajaxify_contact_form: false
@@ -40,7 +40,7 @@ show_workshops_section: true
 ## Disqus post comments             ##
 ## (leave blank to disable Disqus)  ##
 ######################################
-disqus_shortname: 'juniortheme-live'
+disqus_shortname: 'july249'
 
 ##########################################################################
 ## Facebook Comments plugin                                             ##
@@ -53,17 +53,17 @@ facebook_comments_number: 10
 ###################################
 ## Social icons                  ##
 ###################################
-github_username: thundergolfer
+github_username: July249
 bitbucket_username:
 stackoverflow_id:
-twitter_username: jonobelotti_io
+twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: jonathonbelotti
+linkedin_username: jihyung-lee-871a09150
 angellist_username:
-medium_id: thundergolfer
-youtube_channel_id: UCSP7fMKwmaXaZhViAV2Vgvg
+medium_id:
+youtube_channel_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
@@ -75,7 +75,7 @@ show_sharing_icons: True
 # Change to 'true' to enable individual icons
 share_facebook: True
 share_twitter: True
-share_googleplus: True
+share_googleplus: false
 share_linkedin: false
 share_digg: false
 share_tumblr: false
