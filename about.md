@@ -7,11 +7,11 @@ flicker: true
 headshot: /images/headshot.jpg
 ---
 
-I am a Software Engineering student at [RMIT University](https://www.rmit.edu.au/) in Melbourne. Starting November 2016 I will be interning with [Zendesk](https://www.zendesk.com/) in a Data Engineering role.
+I am Software Engineer. Starting November 2021, I started a Growth Hacker in Start-up Company as a Business Strategy and Management Team Leader.
 
-I'm currently doing a lot of work building developer communities around my University. I'll chase any opportunity to improve collaboration and outreach in the tech. industry.
+I'm currently studying Front-end Web development and Data Science and working in Kaggle. I'll chase any opportunity to improve collaboration and outreach in the tech. industry.
 
-My main areas of interest are in NLP, Agent-Oriented Programming, and Computational Dialectics.
+My main areas of interest are in ML/DL research, Web development, and Computational Physics.
 
 {% if site.show_talks_section %}
 ## Talks
