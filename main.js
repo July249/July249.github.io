@@ -150,7 +150,6 @@ function selectNavItem(selected) {
   selectedNavItem.classList.remove('active');
   selectedNavItem = selected;
   selectedNavItem.classList.add('active');
-  // console.log(selected, navItems);
 }
 
 // Reusable code for scrolling into section when click on the buttons
