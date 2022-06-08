@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing -->
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      .inner {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+      }
+      .box2 {
+        padding: 20px;
+        box-sizing: content-box;
+        border: 10px solid black;
+      }
+      .box3 {
+        padding: 20px;
+        box-sizing: border-box;
+        border: 10px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Box without padding</h3>
+    <div class="box box1">
+      <div class="inner"></div>
+    </div>
+
+    <h3>Box with padding</h3>
+    <div class="box box2">
+      <div class="inner"></div>
+    </div>
+
+    <h3>Box with padding, boder-box</h3>
+    <div class="box box3">
+      <div class="inner"></div>
+    </div>
+  </body>
+</html>

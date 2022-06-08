@@ -1,0 +1,107 @@
+/* General setup */
+
+body html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(73, 190, 5, 0.836);
+  margin: 0;
+}
+
+h1 {
+  margin: 10px;
+  padding: 20px 5px;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* typography */
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+
+.head img {
+  position: absolute;
+  padding-top: 20px;
+  right: 30px;
+  width: 10%;
+  height: 10%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgba(89, 233, 5, 0.836);
+}
+
+.navbar li:hover {
+  background-color: rgb(253, 255, 113);
+  border-radius: 4px;
+}
+
+.navbar li {
+  padding: 8px 12px;
+}
+
+.horizontal_bar {
+  width: 100%;
+  background-color: rgb(151, 151, 151);
+  padding: 5px 10px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.main_article .sidebar_article {
+  flex: 4;
+}
+
+.main_article {
+  background-color: rgba(89, 233, 5, 0.836);
+  margin: 10px;
+  padding: 15px 10px;
+  width: 100%;
+  display: block;
+}
+
+.sidebar_article {
+  background-color: rgba(89, 233, 5, 0.836);
+  margin: 10px;
+  padding: 15px 10px;
+  width: 50%;
+}
+
+.bird_photos {
+  margin: 2px;
+  padding: 0;
+}
+
+.bird_photos div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+footer {
+  margin: 20px;
+}

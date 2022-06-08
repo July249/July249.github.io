@@ -1,0 +1,117 @@
+:root {
+  /* colors */
+  --cool-blue-color: #2d5dcc;
+  --pink-color: #d957d9;
+  --mint-green-color: #4fe0b0;
+  --beige-color: #efd9ca;
+  --white-color: white;
+  --black-color: black;
+
+  /* font-family */
+}
+
+html body {
+  padding: 0;
+  margin: 0 4em;
+}
+
+#colors {
+  border: 2px solid var(--black-color);
+  margin: 2em 0;
+  padding: 10px;
+}
+
+#colors #container {
+  height: 100%;
+}
+
+#colors #container #line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#colors #container #line2 {
+  position: relative;
+}
+
+#colors #container #line1 .cool_blue {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  min-height: 100px;
+  padding: 20px 0;
+  margin: 20px auto;
+  background-color: var(--cool-blue-color);
+  color: var(--white-color);
+}
+
+#colors #container #line1 .pink {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  min-height: 100px;
+  padding: 20px 0;
+  margin: 20px auto;
+  background-color: var(--pink-color);
+}
+
+#colors #container #line1 .mint_green {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  min-height: 100px;
+  padding: 20px 0;
+  margin: 20px auto;
+  background-color: var(--mint-green-color);
+}
+
+#colors #container #line2 .beige {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  min-height: 100px;
+  padding: 20px 0;
+  margin: 20px auto;
+  background-color: var(--beige-color);
+}
+
+#colors #container li {
+  list-style: none;
+}
+
+#fonts {
+  border: 2px solid var(--black-color);
+  margin: 2em 0;
+  padding: 10px;
+}
+
+#fonts .font-pannel {
+  display: inline-block;
+  width: 45%;
+}
+
+#fonts .font-pannel .font_name {
+  text-decoration: underline;
+}
+
+#fonts .font-pannel #source_code_pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#fonts .font-pannel #nunito_sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#fonts .font-pannel #poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+#text_styles {
+  border: 2px solid var(--black-color);
+  margin: 2em 0;
+  padding: 10px;
+}
+
+h2 {
+  margin: 0.5em 0;
+}

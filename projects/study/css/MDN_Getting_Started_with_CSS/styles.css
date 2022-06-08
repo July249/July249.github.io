@@ -1,0 +1,25 @@
+/* Adding CSS to our document */
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li > em {
+  color: red;
+}
+
+h1 + p {
+  font-size: 200%;
+}

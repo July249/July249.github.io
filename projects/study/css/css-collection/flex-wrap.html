@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex-Wrap</title>
+    <link href="flex-wrap.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Flex-Wrap: Wrap</h1>
+    <p>
+      child elements of a flex container that don’t fit into a row will move
+      down to the next line
+    </p>
+    <div class="container" id="wrap">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div>
+    <h1>Flex-Wrap: No-Wrap</h1>
+    <p>
+      the same functionality as wrap, but the order of rows within a flex
+      container is reversed (for example, in a 2-row flexbox, the first row from
+      a wrap container will become the second in wrap-reverse and the second row
+      from the wrap container will become the first in wrap-reverse)
+    </p>
+    <div class="container" id="nowrap">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div>
+    <h1>Flex-Wrap: Wrap-Reverse</h1>
+    <p>
+      prevents items from wrapping; this is the default value and is only
+      necessary to override a wrap value set by a different CSS rule.
+    </p>
+    <div class="container" id="reverse">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div>
+  </body>
+</html>

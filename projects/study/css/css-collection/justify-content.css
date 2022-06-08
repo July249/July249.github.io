@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  background-color: whitesmoke;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid lightgrey;
+}
+
+#flexstart {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#flexend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+}
+
+#spacearound {
+  display: flex;
+  justify-content: space-around;
+}
+
+#spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+#spaceevenly {
+  display: flex;
+  justify-content: space-evenly;
+}
