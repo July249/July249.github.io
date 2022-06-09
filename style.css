@@ -438,7 +438,7 @@ button {
 
 .project__description {
   position: absolute;
-  background-color: var(--color-black);
+  background-color: var(--color-light-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,14 +446,14 @@ button {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0;
-  transform: translateY(10px);
+  /* opacity: 0; */
+  /* transform: translateY(10px); */
   transition: all var(--animation-duration) ease-in;
 }
 
 .project:hover .project__description {
   transform: translateY(0px);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .project__description > h3 {

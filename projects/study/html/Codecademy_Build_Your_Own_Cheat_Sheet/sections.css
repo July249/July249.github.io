@@ -1,0 +1,51 @@
+:root {
+  /* color */
+  --black-color: black;
+  --purple-color: purple;
+  --pink-color: pink;
+  --gainsboro-color: gainsboro;
+}
+
+body {
+  background-color: var(--gainsboro-color);
+  margin: 2em;
+  font-family: Arial, sans-serif;
+}
+
+.head h1 {
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+
+.title {
+  color: var(--purple-color);
+  text-align: center;
+}
+
+table {
+  border: 2px solid var(--purple-color);
+}
+
+thead {
+  background-color: var(--pink-color);
+}
+
+th {
+  border-bottom: 1px solid var(--purple-color);
+}
+
+tbody td {
+  border-bottom: 1px solid var(--purple-color);
+}
+
+.code {
+  font-family: monospace;
+  background-color: beige;
+}

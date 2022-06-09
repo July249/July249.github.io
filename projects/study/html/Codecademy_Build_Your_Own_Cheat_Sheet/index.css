@@ -1,0 +1,48 @@
+:root {
+  /* color */
+  --black-color: black;
+  --purple-color: purple;
+  --pink-color: pink;
+  --gainsboro-color: gainsboro;
+
+  /* font-size */
+  --large-size: 20px;
+  --medium-size: 15px;
+  --small-size: 11px;
+}
+/*
+* {
+  border: 1px solid red;
+}
+*/
+body {
+  background-color: var(--gainsboro-color);
+  margin: 2em;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 2em;
+}
+
+ul {
+  padding: 0;
+}
+
+.contents {
+  margin: 2em;
+}
+
+.contents a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: var(--large-size);
+}
+
+.contents li {
+  list-style: none;
+  line-height: 3em;
+  text-align: center;
+}

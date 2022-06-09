@@ -1,0 +1,83 @@
+:root {
+  /* color */
+  --khaki-color: khaki;
+  --white-color: white;
+  --mediumspringgreen-color: mediumspringgreen;
+  --blue-color: blue;
+  --lightcoral-color: lightcoral;
+  --skyblue-color: skyblue;
+
+  /* font-size */
+  --large-size: 100px;
+  --medium-size: 32px;
+
+  /* font-family */
+  --base-font-style: helvetica;
+}
+
+/* basic setting */
+* {
+  border: 1px solid pink;
+}
+
+html body {
+  padding: 0;
+  margin: 5px;
+}
+
+/* header setting */
+header {
+  padding-top: 60px;
+}
+
+header h1 {
+  /* text style */
+  font-family: var(--base-font-style);
+  font-size: var(--large-size);
+  font-weight: bold;
+  color: var(--khaki-color);
+  /* text position */
+  text-align: center;
+  width: 100%;
+  /* background image */
+  background-image: url(./image/pattern.jpeg);
+  /* layout */
+  margin: 0;
+}
+
+/* Section setting */
+.Brushes h2 {
+  /* text style */
+  color: var(--white-color);
+  font-size: var(--medium-size);
+  font-weight: bold;
+  font-family: var(--base-font-style);
+  /* background setting */
+  background-color: var(--mediumspringgreen-color);
+}
+
+.Frames h2 {
+  /* text style */
+  color: var(--white-color);
+  font-size: var(--medium-size);
+  font-weight: bold;
+  font-family: var(--base-font-style);
+  /* background setting */
+  background-color: var(--lightcoral-color);
+}
+
+.Paint h2 {
+  /* text style */
+  color: var(--white-color);
+  font-size: var(--medium-size);
+  font-weight: bold;
+  font-family: var(--base-font-style);
+  /* background setting */
+  background-color: var(--skyblue-color);
+}
+
+span {
+  font-family: var(--base-font-style);
+  font-weight: bold;
+  color: var(--blue-color);
+}
